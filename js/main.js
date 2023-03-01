@@ -98,7 +98,7 @@ function menuShow() {
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
         mexebaixo.style.height = "80vh";
-        document.querySelector('.icon-menu').src = "../../img/menu_white_36dp.svg";
+        document.querySelector('.icon-menu').src = "img/menu_white_36dp.svg";
         
     } else {
         mexebaixo.style.height = "100vh";
