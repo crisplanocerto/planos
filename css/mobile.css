@@ -555,8 +555,21 @@
     margin-bottom: 1rem;
 }
 
+/*********************************************************/
 
+#carrosel{
+    min-height: 40vh;
+ }
 
+ .container-slider{
+    margin-top: 4rem;
+}
+
+#prev-button, #next-button{
+    width: 2rem;
+    height: 1rem;
+
+}
 /* ------------------------------------------------------------------------- Testimonials ------------------------------------------------------------------------- */
 .testimonial {
     flex-direction: column;
@@ -683,5 +696,23 @@
         
     }
 
+    @media (min-width: 500px) and (max-width: 878px) {
+      
+        #carrosel{
+            min-height: 70vh;
+         }
+        
+         .container-slider{
+            margin-top: 13rem;
+        }
+        
+        #prev-button, #next-button{
+            width: 2rem;
+            height: 2rem;
+        
+        }
+        
+    }
 
+    
            

@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content=width=device-width, inicial-scale=1.0">
-    
+    <!-- efeito de aparecer na tela -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 896px)" href="css/mobile.css">  
-                                                                                      
+    <!-- Our JS file -->
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" media="screen and (max-width: 896px)" href="css/mobile.css">                                           
+    <!-- https://ionic.io/ionicons -->
     <title>Cris Plano Certo</title>
     <link rel="shortcut icon" href="img/perfil13.ico" type="image/x-icon">
+    
     <meta name="reply-to" content="crisplanocerto@gmail.com"/>
                                                             
-    <meta name="copyright" content="Planos de Saúde Brasília - crisplanocerto"/>
-    <meta name="author" content=" yagogestor.com.br "/>
+<meta name="copyright" content="Planos de Saúde Brasília - crisplanocerto"/>
+<meta name="author" content=" yagogestor.com.br "/>
 
-    <meta name="category" content="Internet"/>
-    <meta name="Robots" content="Index,Follow"/>
+<meta name="category" content="Internet"/>
+<meta name="Robots" content="Index,Follow"/>
 
-    <meta name="description" content=" Plano de Saúde com Promoção no Distrito Federal, faça seu Plano Individual, Empresarial e Familiar! Promoção por tempo limitado, faça com quem já tem mais de 2 mil clientes pelo Brasil, venha com crisplanocerto, faça agora sua cotação e saiba qual Plano cabe no seu bolso! ">
-    <meta name="url" content=" http://crisplanocerto.com.br "/>
-    <meta name="keywords" content=" plano de saúde, plano de saude brasília, plano de saude unimed, bradescosaude, cris plano certo, convenio medico "/>
-    <meta name="google-site-verification" content="_ codigoGoogle " />
+<meta name="description" content=" Plano de Saúde com Promoção no Distrito Federal, faça seu Plano Individual, Empresarial e Familiar! Promoção por tempo limitado, faça com quem já tem mais de 2 mil clientes pelo Brasil, venha com crisplanocerto, faça agora sua cotação e saiba qual Plano cabe no seu bolso! ">
+<meta name="url" content=" http://crisplanocerto.com.br "/>
+<meta name="keywords" content=" plano de saúde, plano de saude brasília, plano de saude unimed, bradescosaude, cris plano certo, convenio medico "/>
+<meta name="google-site-verification" content="_ codigoGoogle " />
 
-    <meta property="og:title" content=" crisplanocerto "/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content=""/>
+<meta property="og:title" content=" crisplanocerto "/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content=""/>
 
-    <meta property="og:description" content="Faça sua Cotação de Planos Individuais, Familiares e Empresariais. Promoções em Brasília - DF. Todos os Planos de Saúde. Mais de 2 mil clientes pelo Brasil. @crisplanocerto  "/>
-
+<meta property="og:description" content="Faça sua Cotação de Planos Individuais, Familiares e Empresariais. Promoções em Brasília - DF. Todos os Planos de Saúde. Mais de 2 mil clientes pelo Brasil. @crisplanocerto  "/>
 </head>
 
 <body>
@@ -97,11 +99,31 @@
 
 
       <!------------------------------------------------------------------------- Quer mais clientes ----------------------------------------------------------------->
-  <!--  Galeria -->
-  <section id="gallery">
-    <div class="headline1"> Conheça nossos parceiros
-        <div class="headline2">Todos os Planos de Saúde só aqui na @crisplanocerto</div>
-    </div>
+  <!--  Galeria 
+  <section id="gallery">-->
+    
+
+    <section id="carrosel">
+
+        <div class="headline1"> Conheça nossos parceiros
+            <div class="headline2">Todos os Planos de Saúde só aqui na @crisplanocerto</div>
+        </div>
+
+        <div class="container-slider">
+            <button id="prev-button"><img src="img/Carrosel/arrow.png" alt="prev-button"></button>
+            <div class="container-images">
+    
+                <img src="img/Carrosel/img1.png" alt="girl" class="slider on">
+                <img src="./img/Carrosel/img2.png" alt="girl" class="slider">
+                <img src="img/Carrosel/img3.png" alt="girl" class="slider">
+                
+            </div>
+            <button id="next-button"><img src="img/Carrosel/arrow.png" alt="next-button"></button>
+        </div>
+    
+    </section>
+
+    <!--
     <div id="gallery-container">
         <img src="img/logos/bradesco.png" alt="" class="gallery-image">
         <img src="img/logos/sulamerica.png" alt="" class="gallery-image">
@@ -131,11 +153,12 @@
         <img src="img/logos/plansaude.png" alt="" class="gallery-image">
         <img src="img/logos/qualicorp.png" alt="" class="gallery-image">
     </div>
-        
+
        
    <div class="dobtn">
     <button onclick="showmore()" id="btnLeiaMais">Veja Mais</button>
     </div>
+-->
  </section>     
 
    <!------------------------------------------------------------------------- Você Terá ao Contratar ----------------------------------------------------------------->
@@ -285,6 +308,9 @@
     
 </section>
 
+<!--   -->
+
+
 
 
   <!------------------------------------------------------------------------- Footer --------------------------------------------------------------->
@@ -305,7 +331,6 @@
      crossorigin="anonymous"></script>
 
 
-    <!-- Our JS file -->
-    <script src="js/main.js"></script>
+    
 </body>
 </html>
