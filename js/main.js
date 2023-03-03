@@ -1,93 +1,3 @@
-/*<!------------------------------------------------------------------------- scrollreveal  ----------------------------------------------------------------->*/
-window.sr = ScrollReveal ({reset: true});
-sr.reveal('', {duration: 1000});
-
-
-/*Quem sou eu*/ 
-
-sr.reveal('.headline1',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-
-sr.reveal('.pai-operadoras',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-
-sr.reveal('.headline2',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-sr.reveal('#testimonials-container',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-
-/*Quer mais clientes*/ 
-sr.reveal('.itens', {
-    rotate: {x: 0, y: 80, z: 0},
-    duration:700
-});
-
-/*Quer mais clientes?*/ 
-sr.reveal('#features-container',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-sr.reveal('.headline',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-/*Nosso serviço*/
-sr.reveal('#product-container',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-
-
-
-/*Serviços adicionais*/ 
-
-sr.reveal('.titulo_do_servico',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-sr.reveal('#servico-container',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-/*Formulário*/ 
-sr.reveal('.formuesquerda',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-sr.reveal('.formu',{
-    rotate: {x: 0, y: 80, z: 0},
-    duration:400,
-    delay:100
-});
-
-
 /*<!------------------------------------------------------------------------- Navbar  ----------------------------------------------------------------->*/
 
 
@@ -120,7 +30,7 @@ function showmore() {
     if (abredivimagem.classList.contains('opendiv')) {
         abredivimagem.classList.remove('opendiv');
         abredivimagem.style.overflow="hidden";
-        
+        btnLeiaMais.innerHTML = 'Veja Mais';
         //btnabredivimagem.classList.remove('openbtnum');
         //btnLeiaMais.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-down fa-2x color-primary"></i>';
         
@@ -128,12 +38,105 @@ function showmore() {
         abredivimagem.classList.add('opendiv');
         abredivimagem.style.overflow="visible";
         abredivimagem.style.animation = "fadeIn 2s";
-        
-
-       // btnabredivimagem.classList.add('openbtnum');
-       // btnLeiaMais.innerHTML = '<i class="fa-solid fa-regular fa-circle-arrow-up fa-2x color-primary"></i>';
+        btnLeiaMais.innerHTML = 'Veja Menos';
+        window.sr = ScrollReveal({
+            reset: false,
+            distance: '60px',
+            duration: 1000,
+            delay:400
+        });
     }
 }
+
+
+/*<!------------------------------------------------------------------------- scrollreveal  ----------------------------------------------------------------->*/
+window.sr = ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 1000,
+    delay:00,
+    interval: 16,
+});
+
+
+/*Quem sou eu*/ 
+
+sr.reveal('.headline1',{
+    origin: 'left',
+    delay:200,
+});
+
+
+sr.reveal('.pai-operadoras',{
+    rotate: {x: 0, y: 80, z: 0},
+});
+
+sr.reveal('#gallery-container',{
+    origin: 'bottom',
+    delay: 200,
+});
+
+
+
+sr.reveal('.headline2',{
+    origin: 'left',
+});
+
+sr.reveal('#testimonials-container',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+
+/*Quer mais clientes*/ 
+sr.reveal('.itens', {
+    rotate: {x: 0, y: 80, z: 0},
+    duration:700
+});
+
+/*Quer mais clientes?*/ 
+sr.reveal('#features-container',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+sr.reveal('.headline',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+/*Nosso serviço*/
+sr.reveal('#product-container',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+
+
+
+/*Serviços adicionais*/ 
+
+sr.reveal('.titulo_do_servico',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+sr.reveal('#servico-container',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+/*Formulário*/ 
+sr.reveal('.formuesquerda',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+sr.reveal('.formu',{
+    rotate: {x: 0, y: 80, z: 0},
+    
+});
+
+
 
 
 
