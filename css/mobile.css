@@ -105,6 +105,12 @@
     padding-bottom: 0.5rem;
 }
 
+/***********************************************/
+.img_btn2{
+    width: 8rem;
+}
+
+
 /*-----------------------------------------------------------Formulário --------------------*/
 
 .formu-body{
@@ -347,7 +353,7 @@
 }
 
 #showcase-container p{
-    font-size: 1.4rem;
+    font-size: 0.9rem;
 }
 
 #showcase-container a{
