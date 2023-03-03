@@ -441,7 +441,7 @@
     text-transform: uppercase;    
 }
 .headline1{
-    font-size: 1.7rem;   
+    font-size: 1.45rem;   
 }
 
 .headline1 #titulo_retracao{
@@ -449,7 +449,7 @@
 }
 
 .headline2{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding-bottom: 2px;
 }
 
@@ -561,6 +561,7 @@
     min-height: 40vh;
  }
 
+
  .container-slider{
     margin-top: 4rem;
 }
@@ -568,7 +569,6 @@
 #prev-button, #next-button{
     width: 2rem;
     height: 1rem;
-
 }
 /* ------------------------------------------------------------------------- Testimonials ------------------------------------------------------------------------- */
 .testimonial {
