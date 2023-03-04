@@ -435,7 +435,7 @@
 #product {
     width: 100%;
     padding: 1rem;
-    padding-top: 4rem;
+    padding-top: 8rem;
  
     background-color: rgba(0, 0, 0, 0.5);
     
@@ -583,12 +583,13 @@
 /*********************************************************/
 
 #carrosel{
-    min-height: 30vh;
+    padding-top: 2rem;
+    min-height: 42vh;
  }
 
 
  .container-slider{
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 #prev-button, #next-button{
