@@ -360,7 +360,7 @@ a{
 
 .btn {
     display: inline-block;
-    padding: 10px 40px;
+    padding: 5px 30px;
     font-size: 1.7rem;
     background: rgb(253, 253, 253);
     border-radius: 100px;
@@ -793,8 +793,8 @@ a{
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 50px;
-    
     padding-top: 3.5%;
+    
     
 }
 
@@ -804,8 +804,8 @@ a{
     text-transform: uppercase;
     text-align: center;
     padding-top: 1.0%;
+    color: rgba(255, 255, 255, 0.877);
     letter-spacing: 2px;
-    color: white;
 }
 
 #botoes_redes .Hfooter{
@@ -1001,15 +1001,7 @@ color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-   
-    padding: 15px;
-    margin: 15px 0;
-
-    
-    
     border-radius: 5px;
-   
-    
 }
 
 
@@ -1024,12 +1016,11 @@ color: rgb(0, 0, 0);
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    
 }
 
 
 #testimonials-container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     align-items: center;

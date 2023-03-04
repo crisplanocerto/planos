@@ -107,7 +107,7 @@
 
 /***********************************************/
 .img_btn2{
-    width: 8rem;
+    width: 9rem;
 }
 
 
@@ -160,6 +160,12 @@
     margin-right: 0rem;
     width: 20rem;
 }
+
+
+.formu h1{
+   font-size: 2rem;
+}
+
 
 /*<!------------------------------------------------------------------------- Fim Background images  ----------------------------------------------------------------->*/
 
@@ -339,6 +345,9 @@
 
 /* ------------------------------------------------------------------------- Showcase  ------------------------------------------------------------------------- */
 
+.distance{
+    margin-bottom: 4rem;
+}
 
 #showcase-container {
     display: grid;
@@ -350,17 +359,22 @@
 
 #showcase-container h2 {
     font-size: 2.0rem;
+    
 }
 
 #showcase-container p{
     font-size: 0.9rem;
+    margin-top: 2rem;
 }
 
 #showcase-container a{
     font-size: 1.0rem;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    margin-top: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+        
+    
 }
 
 /*------------------------------------------------------------------------- Onde anunciamos -----------------------------------------------------------------*/
@@ -439,17 +453,20 @@
    
 }
 
-
-
 /*Headline 1 e 2*/
 #showcase-container a{
     display: block;
     text-transform: uppercase;    
 }
 .headline1{
-    font-size: 1rem;   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+    
 }
-
 .headline1 #titulo_retracao{
     color: #222;
 }
@@ -457,6 +474,8 @@
 .headline2{
     font-size: 0.7rem;
     padding-bottom: 2px;
+    color: #dbdbdbcb;
+    padding: 0.5rem;
 }
 
 /*Formas de contato*/
@@ -474,11 +493,11 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    padding-top: 4.5%;
+
 }
 
 #botoes_redes{
-    padding-bottom:  7rem;
+    padding-bottom:  3rem;
 }
 
 /*Importante*/
@@ -564,12 +583,12 @@
 /*********************************************************/
 
 #carrosel{
-    min-height: 40vh;
+    min-height: 30vh;
  }
 
 
  .container-slider{
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 #prev-button, #next-button{
@@ -597,7 +616,7 @@
 
 #gallery .headline2{
     color: #fff;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 #gallery-container{
