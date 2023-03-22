@@ -1,11 +1,11 @@
 #gallery {
-    background-image: url("../img/foto3.png");
+    background-image: url("../img/foto3.webp");
 }
 
 
 #showcase{
   
-    background-image: url("../img/teste3.png");
+    background-image: url("../img/teste3.webp");
 
 
 }
@@ -17,14 +17,14 @@ padding-top: 3rem;
 /*<!------------------------------------------------------------------------- Porque é contratar ----------------------------------------------------------------->*/
 
 #importante{
- background-image: url("../img/foto3.png");
+ background-image: url("../img/foto3.webp");
 
 }
 
 /*<!------------------------------------------------------------------------- Nosso Serviço ----------------------------------------------------------------->*/
 
 #product{
-    background-image: url("../img/foto3.png");
+    background-image: url("../img/foto3.webp");
 
     
 }
@@ -34,7 +34,7 @@ padding-top: 3rem;
 
 
 .operadoras{
-    background-image: url("../img/foto3.png");
+    background-image: url("../img/foto3.webp");
 
 }
 

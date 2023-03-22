@@ -1,29 +1,22 @@
-body{
-    background-image: url("../img/bemvindo/backm.png");
+.cobre{
+    background-image: url("../img/fundobemvindo2.webp");
+    margin: 0;
+    padding: 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.74);
+    background-blend-mode: color;
 }
 
-
-#gallery {
-    width: 21rem;
-    margin: auto;
-    padding: 1rem;
-}
 
 .gallery-image {
     width: 10rem;
-    border-radius: 5px;
+    height: 19rem;
 }
 
 
-.logo{
-    margin-top: 3rem;
-    width: 8rem;
-}
 
 #botoes_redes{
-    margin-top: 12rem;
+    margin-top: 7rem;
 }

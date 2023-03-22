@@ -144,7 +144,7 @@ html {
 
 
 #carrosel {
-    background-image: url("../img/foto3.png") ;
+    background-image: url("../img/foto3.webp") ;
     margin: 0;
     padding: 0;
     background-position: center;
@@ -157,7 +157,7 @@ html {
 
 #showcase{
   
-    background-image: url("../img/teste2.png");
+    background-image: url("../img/teste2.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -171,7 +171,7 @@ html {
 /*<!------------------------------------------------------------------------- Porque é contratar ----------------------------------------------------------------->*/
 
 #importante{
- background-image: url("../img/foto2.png");
+ background-image: url("../img/foto2.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -183,7 +183,7 @@ html {
 /*<!------------------------------------------------------------------------- Nosso Serviço ----------------------------------------------------------------->*/
 
 #product{
-    background-image: url("../img/foto2.png");
+    background-image: url("../img/foto2.webp");
     margin: 0;
     padding: 0;
     background-position: center;
@@ -197,7 +197,7 @@ html {
 /* <!------------------------------------------------------------------------- formulario ----------------------------------------------------------------->*/
 
 .formu-body{
-      background-image: url("../img/foto2.png");
+      background-image: url("../img/foto2.webp");
       margin: 0;
       padding: 0;
       background-position: center;
@@ -240,7 +240,7 @@ html {
 }
  
 .operadoras{
-    background-image: url("../img/foto2.png");
+    background-image: url("../img/foto2.webp");
     margin: 0;
     padding: 0;
     background-position: center;
