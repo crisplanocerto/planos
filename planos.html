@@ -41,28 +41,7 @@
                                                             
     
     
-    
 
-</head>
-
-<head>
-    <script>
-      var searchTerm = getParameterByName('q'); // obter o termo de pesquisa do Google a partir da URL
-      if (searchTerm !== null && searchTerm !== '') { // verifique se o termo de pesquisa existe
-        document.title = searchTerm + " - Minha Página"; // atualize o título da página com o termo de pesquisa
-      }
-      
-      function getParameterByName(name, url) { // função para obter o valor do parâmetro da URL
-        if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, '\\$&');
-        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, ' '));
-      }
-    </script>
-  </head>
 
 <body>
      <!------------------------------------------------------------------------- NavBar ----------------------------------------------------------------->
