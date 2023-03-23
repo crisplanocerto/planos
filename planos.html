@@ -11,29 +11,58 @@
     <script src="js/main.js" defer></script>
     <link rel="stylesheet" media="screen and (max-width: 896px)" href="css/mobile.css">                                           
     <!-- https://ionic.io/ionicons -->
-    <title>Cris Plano Certo</title>
+    <title>Planos de Saúde Brasília - crisplanocerto</title>
     <link rel="shortcut icon" href="img/perfil13.ico" type="image/x-icon">
-    
-    <meta name="reply-to" content="crisplanocerto@gmail.com"/>
-                                                            
+                      
+    <!--
+    colocar canonical: ele centraliza todos os acessos caso seu site tenha mais de um link tipo www.crisplanocerto ou crisplanocerto.com
+    por sitemap
+    www.xml-sitemaps.com - gerador de site map, ele já precisa estar no ar -doinwload e jogar ele no msm nivel do Index  https://www.youtube.com/watch?v=fQ6h7PDCk1A&ab_channel=DevTechTipsBrasil
+    metatags.io
+    -->
 
-<meta name="copyright" content="Planos de Saúde Brasília - crisplanocerto"/>
-<meta name="author" content=" yagogestor.com.br "/>
-<meta name="category" content="Internet"/>
-<meta name="robots" content="index,follow"/>
-<meta property="og:url" content="https://crisplanocerto.com.br/planos"/>
-<!-- Isso é oq aparece no resultado do google como titulo principal max 55 caracteres-->
-<meta property="og:title" content="Planos de Saúde DF | Brasília Bradesco - Smile - Unimed"/>
-<meta property="og:type" content="crisplanocerto"/>
-<!-- Descrição em baixo do título-->
-<meta property="og:description" content="Planos de Saúde Brasília - DF. Todos os Planos de Saúde, Bradesco, Smile, Unimed e muito mais. Faça já a sua cotação brasília."/>
-<meta property="og:site_name" content="crisplanocerto.com.br/planos"/>
-<!-- Dá pra indexar uma imagem -->
-<meta property="og:image" content="https://crisplanocerto.com.br/img/vantagens/bradesco.webp"/>
-<link rel="canonical" href="https://crisplanocerto.com.br/planos"/>
+    <meta name="reply-to" content="crisplanocerto@gmail.com"/>
+    <meta name="copyright" content=" Planos de Saúde Brasília - crisplanocerto "/>
+    <meta name="author" content=" yagogestor.com.br "/>
+    
+    <meta name="category" content="Internet"/>
+    <meta name="Robots" content="Index,Follow"/>
+    
+    <meta name="title" content="Planos de Saúde - DF Empresarial, Individual e Familiar. Bradesco, Amil...">
+    <meta name="description" content=" Plano de Saúde com Promoção no Distrito Federal, faça seu Plano Individual, Empresarial e Familiar! Promoção por tempo limitado, faça com quem já tem mais de 2 mil clientes pelo Brasil, venha com crisplanocerto, faça agora sua cotação e saiba qual Plano cabe no seu bolso! ">
+    <meta name="url" content=" http://crisplanocerto.com.br "/>
+    <meta name="keywords" content="plano de saúde, plano de saude brasília, plano de saude unimed, bradescosaude, cris plano certo, convenio medico"/>
+    
+    <meta property="og:title" content=" Crisplanocerto "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    
+    <meta property="og:description" content="Faça sua Cotação de Planos Individuais, Familiares e Empresariais. Promoções em Brasília - DF. Todos os Planos de Saúde. Mais de 2 mil clientes pelo Brasil. @crisplanocerto"/>
                                                             
-                                                            
+    
+    
+    
+
 </head>
+
+<head>
+    <script>
+      var searchTerm = getParameterByName('q'); // obter o termo de pesquisa do Google a partir da URL
+      if (searchTerm !== null && searchTerm !== '') { // verifique se o termo de pesquisa existe
+        document.title = searchTerm + " - Minha Página"; // atualize o título da página com o termo de pesquisa
+      }
+      
+      function getParameterByName(name, url) { // função para obter o valor do parâmetro da URL
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      }
+    </script>
+  </head>
 
 <body>
      <!------------------------------------------------------------------------- NavBar ----------------------------------------------------------------->
