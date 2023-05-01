@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
+
+body{
+background-color: rgb(241, 241, 241);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_um{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_um p{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_um {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.div_dois{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_dois p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.div_tres{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_tres p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_quatro{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_quatro p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_cinco{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_cinco p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_seis{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_seis p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_sete{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_sete p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_oito{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_oito p, h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_nove{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_nove p, h3, ul, li{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.div_dez{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div_dez p, h3, ul, li{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+
+
